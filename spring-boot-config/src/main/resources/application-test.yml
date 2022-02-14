@@ -1,0 +1,12 @@
+my:
+ greeting: HelloToSpringbootConfigAppTest
+ list: 
+  values: one,Two,Three,Four
+db:
+ connection: "{dbconnection:'http:/____', userName:'foo', password:'pass'}"
+ host: 127.0.0.1
+ port: 1209
+server:
+ port: 8084
+
+management.endpoints.web.exposure.include: "*"
